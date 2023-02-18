@@ -1,0 +1,25 @@
+{
+  "name": "tugas-pekanan-5-naufal",
+  "version": "1.0.0",
+  "description": "Tugas Pekanan 5-Naufal Zainul Muttaqin",
+  "main": "index.js",
+  "scripts": {
+    "test": "Test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kengyuuon/Tugas-Pekanan-5-Naufal.git"
+  },
+  "keywords": [
+    "Tugas"
+  ],
+  "author": "Naufal Zainul Muttaqin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kengyuuon/Tugas-Pekanan-5-Naufal/issues"
+  },
+  "homepage": "https://github.com/Kengyuuon/Tugas-Pekanan-5-Naufal#readme",
+  "dependencies": {
+    "cypress": "^10.11.0"
+  }
+}

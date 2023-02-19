@@ -1,10 +1,10 @@
 describe('Test Login kasirAja', () => {
-    it('should open login page first', () => {
+    it('Open login page', () => {
       cy.visit('https://kasirdemo.belajarqa.com')
       cy.url().should('include', '/login')
     })
   
-    it('success login using valid credential', () => {
+    it('Successfully logged in using valid data', () => {
       cy.visit('https://kasirdemo.belajarqa.com')
       cy.get('#email').type("naufalzm14@gmail.com")
       cy.get('#password').type("Toko123")
@@ -17,7 +17,7 @@ describe('Test Login kasirAja', () => {
       cy.contains("kasirAja")
     })
 
-    it('Failed login', () => {
+    it('Failed login with empty email', () => {
         cy.visit('https://kasirdemo.belajarqa.com')
         cy.get('#password').type("Toko123")
         cy.contains("login").click()

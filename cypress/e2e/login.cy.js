@@ -1,5 +1,5 @@
 describe('Test Login kasirAja', () => {
-    it('Open login page', () => {
+    it('Login', () => {
       cy.visit('https://kasirdemo.belajarqa.com')
       cy.url().should('include', '/login')
     })

@@ -1,10 +1,10 @@
 describe('Test Add Category kasirAja', () => {
-    it('Open login page', () => {
+    it('Login', () => {
       cy.visit('https://kasirdemo.belajarqa.com')
       cy.url().should('include', '/login')
     })
   
-    it('success login using valid credential', () => {
+    it('Successfully login using valid credential', () => {
       cy.visit('https://kasirdemo.belajarqa.com')
       cy.get('#email').type("naufalzm14@gmail.com")
       cy.get('#password').type("Toko123")
